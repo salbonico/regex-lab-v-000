@@ -2,7 +2,7 @@ def starts_with_a_vowel?(word)
   array = word.scan(/\s[aeiouAEIOU]/)
   if array.length > 0
     return array.length
-  else return false
+  else return array.length
   end
 end
 
