@@ -24,4 +24,8 @@ end
 
 def valid_phone_number?(phone)
 array = phone.scan(/[\\(]?[0-9]{3}[\\)]?\s?[0-9]{3}\s?[\\-]?[0-9]{4}/)
+if array.length > 0
+  return true
+else return false
+end
 end
