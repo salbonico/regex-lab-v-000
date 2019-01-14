@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
   array = word.scan(/\s[aeiouAEIOU]/)
-  if array.length > 0
+  if array.count > 0
     return true
   else return false
   end
